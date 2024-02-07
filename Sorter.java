@@ -1,3 +1,4 @@
+package app;
 
 import java.util.Arrays;
 
@@ -24,5 +25,10 @@ public class Sorter {
             arr[i] = temp;
         }
     }
-}
 
+    public static void sort(){
+        int[] a={1,2,3};
+        selectionSort(a);
+
+    }
+}
